@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h2>99XT Developer Test - Inventory Management System</h2>
+
+        <button class="btn btn-primary" onclick="location.href='@Url.Action("Index","Inventory")'">Manage Inventory</button>
+        <button class="btn btn-primary" onclick="location.href='@Url.Action("Index","Supplier")'">Manage Suppliers</button>
+    </div>

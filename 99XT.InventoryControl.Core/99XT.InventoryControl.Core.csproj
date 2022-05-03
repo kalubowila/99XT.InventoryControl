@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>_99XT.InventoryControl.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\99XT.InventoryControl.DataAccess\99XT.InventoryControl.DataAccess.csproj" />
+    <ProjectReference Include="..\99XT.InventoryControl.Models\99XT.InventoryControl.Models.csproj" />
+  </ItemGroup>
+
+</Project>
